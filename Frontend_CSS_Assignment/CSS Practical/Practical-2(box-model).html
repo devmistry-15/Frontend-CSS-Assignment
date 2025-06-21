@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Times New Roman', Times, serif
+      }
+      .main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin-top: 50px;
+      }
+      .card {
+        width: 400px;
+        height: 320px;
+        padding: 20px;
+        border: 3px solid black;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(99, 97, 97);
+        color: white;
+      }
+      .profilepicture {
+        width: 100%;
+        border-radius: 75px;
+        height: 140px;
+        display: flex;
+        margin-top: 20px;
+        flex-direction: column;
+      }
+      .btn {
+        text-align: center;
+        font-size: 14px;
+        padding: 4px;
+        margin-top: 20px;
+        background-color: rgb(207, 203, 203);
+      }
+      img {
+        width: 150px;
+        border-radius: 75px;
+        height: 140px;
+        border: 3px solid black;
+      }
+      div p {
+        width: 500px;
+      }
+      .bio {
+        width: 250px;
+        height: 90px;
+        margin-top: 10px;
+      }
+      .btn:hover {
+        border-radius: 20px;
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="card">
+        <p style="font-size: 16px">
+          <abbr title="User name" style="text-decoration: none">
+            dmistry_1234</abbr>
+        </p>
+        <div class="profilepicture">
+          <img src="pp.jpg" alt="" />
+        </div>
+        <div class="bio">
+          <p>
+            🌍 15 sep <br />
+            Simplicity is a 🗝️ of happiness.
+          </p>
+        </div>
+        <button class="btn">Follow</button>
+      </div>
+    </div>
+  </body>
+</html>

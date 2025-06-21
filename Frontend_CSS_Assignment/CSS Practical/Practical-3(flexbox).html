@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        font-family: "Times New Roman", Times, serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .container {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        width: 650px;
+        height: 400px;
+        padding: 10px;
+        border: 2px solid black;
+      }
+      .header {
+        padding: 2px;
+        text-align: center;
+        width: 100%;
+        border: 2px solid black;
+        background-color: rgb(185, 133, 237);
+      }
+      .center {
+        margin-top: 10px;
+        display: flex;
+        width: 100%;
+        gap: 2%;
+      }
+      .aside {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+        border: 2px solid black;
+        width: 20%;
+        background-color: burlywood;
+      }
+      .main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+        width: 90%;
+        background-color: cyan;
+        border: 2px solid black;
+      }
+      .footer {
+        margin-top: 10px;
+        padding: 2px;
+        text-align: center;
+        width: 100%;
+        background-color: rgb(234, 132, 207);
+        border: 2px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h2>Header</h2>
+      </div>
+      <div class="center">
+        <div class="aside">
+          <h2>Aside</h2>
+        </div>
+        <div class="main">
+          <h2>Main Content</h2>
+        </div>
+      </div>
+      <div class="footer">
+        <h2>Footer</h2>
+      </div>
+    </div>
+  </body>
+</html>

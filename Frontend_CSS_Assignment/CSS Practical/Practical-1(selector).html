@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practical 1</title>
+    <style>
+        .main{
+            margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+  margin-top: 50px;
+        }
+        .conatiner{
+            background-color: rgb(221, 211, 211);
+            width: 32vw;
+            height: 30vw;
+            font-size: 1vw;
+            padding: 1vw;
+            font-size: 18px;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+        #box{
+            width: 22vw;
+            height: 1.5vw;
+            border-radius: 8px;
+        }
+        .textareabox{
+            width: 22vw;
+            height: 5vw;
+            border-radius: 8px;
+
+        }
+        td{
+            padding: 5px;
+        }
+        .selectbox{
+            width: 22vw;
+            height: 1.8vw ;
+            border-radius: 8px;
+            padding-left: 5px;
+        }
+        .btn{
+            width: 120px;
+            margin: 10px;
+            padding: 5px;
+            font-size: 16px;
+        }
+        .btn:hover{
+            background-color: blue;
+            border-radius: 10px;
+        }
+        h2{
+            text-align: center;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="conatiner main">
+      <form action="">
+        <h2>Contact Form</h2>
+        <table>
+          <tr>
+            <td>
+              <label for="fullname">Full Name:</label>
+            </td>
+            <td>
+              <input type="text" name="fullname" id="box" class="" required />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="email">Email:</label>
+            </td>
+            <td><input type="email" name="email" id="box" required /></td>
+          </tr>
+          <tr>
+            <td>
+              <label for="phoneno">Phone no:</label>
+            </td>
+            <td>
+              <input type="tel" name="phoneno" id="box" required  minlength="10" maxlength="10"/>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="select">Subject</label>
+            </td>
+            <td>
+              <select name="select" id="" class="selectbox" required>
+                <option value="">Select Subject</option>
+                <option value="">Maths</option>
+                <option value="">Science</option>
+                <option value="">English</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="textarea">Meassage:</label>
+            <td>
+              <textarea name="textarea" id="" class="textareabox" required></textarea>
+            </td>
+            </td>
+          </tr>
+            <td colspan="2" align="center">
+              <input type="submit" value="Submit" id="" class="btn" />
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </body>
+</html>
