@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        body{
+            display: grid;
+            grid-template-columns: repeat(4,0.1fr);
+        }
+        .container{
+            display: flex;
+            margin-top: 30px;
+        }
+        .card:hover{
+            border: 2.5px solid black;
+            background-color: rgb(237, 225, 209);
+            box-shadow: 5px 5px 3px red;
+        }
+        .card{
+            margin-left: 15px;
+            width: 300px;
+            height: 300px;
+            border-radius: 10px;
+            background-color: rgb(247, 245, 245);
+
+        }
+        .cardimage{
+            width: 180px;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            background-color: rgb(223, 217, 217);
+            display: block;
+            margin-left: auto;
+            border-radius: 10px;
+            margin-right: auto;
+        }
+        .cardimage img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .cardimage:hover{
+            border: 2px solid black;
+           box-shadow: 5px 5px 2px blue;
+        }
+        img{
+            padding: 10px;
+            width: 150px;
+            height: 180px;
+            border-radius: 20px;
+        }
+        .card-text{
+            display: flex;
+            justify-content: center;
+            font-size: 1.2em;
+            color: black;
+            text-align: justify;
+        }
+        .card-text:hover{
+            font-weight: 600;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="cardimage">
+          <img src="Images/iphone.jpg" alt="" />
+        </div>
+        <div class="card-text">
+          <p>
+            iphone 16 Plus <br />
+            &#8377; 92,900
+          </p>
+        </div>
+      </div>
+      </div>
+         <div class="container">
+      <div class="card">
+        <div class="cardimage">
+          <img src="Images/airbuds.jpg" alt="" />
+        </div>
+        <div class="card-text">
+          <p>
+            boAt Airdopes 131 <br />
+            &#8377; 740
+          </p>
+        </div>
+      </div>
+      </div>
+        <div class="container">
+      <div class="card">
+        <div class="cardimage">
+          <img src="Images/watch.jpg" alt="" />
+        </div>
+        <div class="card-text">
+          <p>
+            Analog-Digital Watch <br />
+            &#8377; 1000
+          </p>
+        </div>
+      </div>
+      </div>
+      <div class="container">
+      <div class="card">
+        <div class="cardimage">
+          <img src="Images/shoes.jpg" alt="" />
+        </div>
+        <div class="card-text">
+          <p>
+            Casual Sneaker Shoes<br />
+            &#8377; 900
+          </p>
+        </div>
+      </div>
+      </div>
+  </body>
+</html>
